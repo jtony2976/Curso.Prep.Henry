@@ -89,6 +89,13 @@ function tienePropiedad(objeto, propiedad) {
   // De lo contrario, devuelve "false"
   // Tu código:
  
+    if (objeto[propiedad]) {
+      return true;
+    } else {
+      return false;
+    }
+
+  /*
   for (var key in objeto) {
     if (key === propiedad) {
       return true;
@@ -96,6 +103,7 @@ function tienePropiedad(objeto, propiedad) {
       return false;
     }
   }
+*/
 
 }
 

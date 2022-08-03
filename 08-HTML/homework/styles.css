@@ -1,0 +1,62 @@
+body {
+    background-image: url("./images/universe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+
+    
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  align-content: center;
+}
+
+h1 {
+    color: blue;
+}
+
+h3, h4 {
+    color: aquamarine;
+}
+
+img {
+    width: 400px;
+}
+
+.divClass {
+    margin: auto;
+    color: aquamarine;
+    text-align: center;
+}
+
+a {
+    color: aquamarine; /* Color of the link itself */
+}
+a:hover {
+    color: blue; /* Color when the mouse is over the link */
+}
+a:active {
+    color: red; /* Color when link is clicked */
+}
+a:visited {
+    color: yellow; /* Any link that hasn't been visited make it yellow */
+}
+
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    background-color: beige;
+    padding: 50px;
+    border:  1px solid black;
+    /*margin: auto;*/*
+    text-align: center;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
