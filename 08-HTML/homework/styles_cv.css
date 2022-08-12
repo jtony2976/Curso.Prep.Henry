@@ -1,0 +1,68 @@
+
+body {
+  background-color: rgb(245, 245, 235);
+}
+
+.flex-container {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#miFoto {
+  width: 150px;
+}
+
+.c1 {
+  flex-grow: 5;
+}
+
+.c2 {
+  flex-grow: 1;
+}
+
+.c3 {
+  flex-grow: 1;
+}
+
+#goalDescrip {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+}
+
+/*
+  Seccion Experiencia Profesional
+*/
+#divBody {
+  width: 90%;
+  /* border: 1px solid black; */
+}
+
+fieldset {
+    background-color: #eeeeee;
+  }
+  
+#leyendaSeccion {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+  font-weight:bold;
+}
+
+#TextLeyenda-tituloJob {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  text-decoration: underline;
+
+}
+
+
+
+
+
+
+
+
+
+
